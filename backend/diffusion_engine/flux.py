@@ -13,7 +13,7 @@ from backend import memory_management
 
 
 class Flux(ForgeDiffusionEngine):
-    matched_guesses = [model_list.Flux, model_list.FluxSchnell]
+    matched_guesses = [model_list.Flux, model_list.FluxSchnell, model_list.FluxFill]
 
     def __init__(self, estimated_config, huggingface_components):
         super().__init__(estimated_config, huggingface_components)
